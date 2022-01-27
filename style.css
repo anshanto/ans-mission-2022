@@ -1,0 +1,25 @@
+.start-mission{
+    display: flex;
+}
+.start-mission div{
+    width: 100%;
+    height: 100%;
+    padding-left: 7%;
+}
+.start-mission h1{
+    font-size: 60px;
+    border-left-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+.start-mission div img{
+    width: 350px;
+    border-radius: 30%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(red, tomato);
+    border-radius: 4px;
+    font-size: 20px;
+}
