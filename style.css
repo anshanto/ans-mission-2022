@@ -9,9 +9,12 @@
 }
 .start-mission h1{
     font-size: 60px;
-    border-left-style: solid;
-    border-color: blue;
-    border-width: 4px;
+    border-left: 3px solid rgb(250, 8, 8);
+    height: 125px;
+    padding-left: 3%;
+}
+.start-mission div p{
+    text-align: justify;
 }
 .start-mission div img{
     width: 350px;
@@ -20,9 +23,9 @@
 .link-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(red, tomato);
+    background-image: linear-gradient(rgb(233, 45, 45), rgb(235, 50, 17));
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .about-us{
     padding-left: 7%;
@@ -74,7 +77,7 @@ h3{
     background-size: 130px;
     background-position-x: 82%;
     background-position-y: 125%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .global div img{
     width: 330px;
@@ -87,4 +90,39 @@ h3{
 }
 .div8 p{
     text-align: justify;
+}
+.corona{
+    display: flex;
+    padding-left: 20%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position-x: 82%;
+    background-position-y: 125%;
+    margin-bottom: 120px;
+}
+.corona div img{
+    width: 250px;
+    height: 368px;
+}
+.div11 p{
+    text-align: justify;
+}
+.div11{
+    padding-left: 10%;
+    width: 450px;
+    height: 100px;
+}
+h4{
+    text-align: center;
+    font-size: 125%;
+    color: white;
+}
+.last{
+    background-color:#000000;
+    padding: 3%;
+}
+.last div p{
+    text-align: center;
+    color: rgb(61, 23, 230);
 }
