@@ -47,19 +47,44 @@ h2{
 }
 .devlop-limit{
     display: flex;
-    padding-left: 12%;
+    padding-left: 18%;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
-    background-position-x: 8%;
+    background-position-x: 14%;
     background-position-y: 15%;
+    margin-bottom: 60px;
 }
 .div7{
     padding-left: 3%;
+    width: 400px;
+    height: 70px;
 }
-.devlop-limit div h3{
+h3{
     font-size: 25px;
 }
 .div7 p{
+    text-align: justify;
+}
+.global{
+    display: flex;
+    padding-left: 18%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position-x: 82%;
+    background-position-y: 125%;
+    margin-bottom: 200px;
+}
+.global div img{
+    width: 330px;
+    height: 330px;
+}
+.div8{
+    padding-right: 4%;
+    width: 400px;
+    height: 70px;
+}
+.div8 p{
     text-align: justify;
 }
