@@ -17,15 +17,17 @@
     text-align: justify;
 }
 .start-mission div img{
-    width: 350px;
-    border-radius: 30%;
+    width: 330px;
+    height: 330px;
+    border-radius: 5%;
 }
 .link-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(rgb(233, 45, 45), rgb(235, 50, 17));
-    border-radius: 4px;
-    font-size: 15px;
+    background: linear-gradient(rgb(233, 45, 45), rgb(235, 50, 17));
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 7px 20px;
 }
 .about-us{
     padding-left: 7%;
@@ -35,31 +37,30 @@ h2{
     font-size: 45px;
     margin-bottom: 50px;
 }
+.middle-mission div img{
+    width: 100px;
+    height: 100px;
+    padding-left: 230px;
+}
 .middle-mission{
     display: flex;
     margin-bottom: 70px;
 }
-.middle-mission div img{
-    width: 250px;
-    height: 250px;
-    padding-left: 100%;
-}
 .devlop-limit div img{
-    width: 330px;
-    height: 330px;
+    width: 310px;
+    height: 310px;
 }
 .devlop-limit{
     display: flex;
     padding-left: 18%;
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position-x: 14%;
-    background-position-y: 15%;
     margin-bottom: 60px;
+    background: url(images/shapes/shape-1.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 30%;
+    background-position-x: 13%;
 }
 .div7{
-    padding-left: 3%;
+    padding-left: 5%;
     width: 400px;
     height: 70px;
 }
@@ -72,12 +73,12 @@ h3{
 .global{
     display: flex;
     padding-left: 18%;
-    background-image: url(images/shapes/shape-1.png);
+    background: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 130px;
     background-position-x: 82%;
     background-position-y: 125%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .global div img{
     width: 330px;
@@ -94,16 +95,14 @@ h3{
 .corona{
     display: flex;
     padding-left: 20%;
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 130px;
-    background-position-x: 82%;
-    background-position-y: 125%;
     margin-bottom: 120px;
 }
 .corona div img{
     width: 250px;
     height: 368px;
+    background: url(images/shapes/shape-3.png) top left no-repeat, url(images/shapes/shape-3.png) left no-repeat;
+    background-size: 45%;
+    background-position: top 90%;
 }
 .div11 p{
     text-align: justify;
@@ -125,4 +124,9 @@ h4{
 .last div p{
     text-align: center;
     color: rgb(61, 23, 230);
+}
+h5{
+    padding-left: 400%;
+    font-size: 18px;
+    padding-left: 230px;
 }
