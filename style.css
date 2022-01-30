@@ -76,9 +76,9 @@ h3{
     background: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 130px;
-    background-position-x: 82%;
-    background-position-y: 125%;
-    margin-bottom: 70px;
+    height: 500px;
+    background-position: left 140%;
+    background-position: right 70%;
 }
 .global div img{
     width: 330px;
@@ -100,8 +100,8 @@ h3{
 .corona div img{
     width: 250px;
     height: 368px;
-    background: url(images/shapes/shape-3.png) top left no-repeat, url(images/shapes/shape-3.png) left no-repeat;
-    background-size: 45%;
+    background: url(images/shapes/shape-3.png) top left no-repeat, url(images/shapes/shape-3.png) bottom left no-repeat, url(images/shapes/shape-3.png) bottom 20% right no-repeat;
+    background-size: 40%;
     background-position: top 90%;
 }
 .div11 p{
@@ -129,4 +129,7 @@ h5{
     padding-left: 400%;
     font-size: 18px;
     padding-left: 230px;
+}
+.div3{
+     background-color: aquamarine;
 }
